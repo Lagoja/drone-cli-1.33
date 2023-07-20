@@ -1,0 +1,15 @@
+{
+  "packages": [
+    "path:drone-cli#drone-cli"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo \"Using Drone: $(drone -v)\""
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
